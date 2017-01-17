@@ -1,25 +1,35 @@
 <!DOCUTYPE html>
 <html lang = "en-US">
 <head>
+  <style>
+  body {background-color:"yellow";
+        backgorund-image:"C:\Users\wells\Pictures\notepad.png";
+        background-repeat:"no-repeat";
+        backgrtound-position: "right-top";
+        background-attachment:fixed;
+
+      }
+
+  </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title> Lists Check</title>
 
 
 </head>
-<body style= "background color : #FFF799;font-family: courier; color: brown;">
-  <h3 style="text-align: left;">Login<h3>
-    <br>
+<body style= "font-family: courier; color: brown;">
+  <p style="text-align: left;">Login<h3>
     <form action="action_page.php" >
       Username:<input type text="text" name= "user">
+      Password:<input type text="text" name= "pass">
       Encryption:<keygen name = "Username">
       <input type ="submit">
     </form>
-  <h1"text-align: center;">Lists</h1>
+  <h1 style ="text-align: center;">Lists</h1>
   <forms action= "action_page.php" method= "get">
       <fieldset>
         <legend>To Do</legend>
         What do you wanna do <br>
-        <textarea name ="message" rows="10" cols="30"></textarea><br>
+        <textarea name ="message" rows="5" cols="50"></textarea><br>
         <input type = "submit" value = "Submit">
       </fieldset>
   </forms>
@@ -29,3 +39,4 @@
 
 
 </html>
+
